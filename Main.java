@@ -4,5 +4,8 @@ class Main {
     int myBirthday = 731;
     int todaysDate = 921;
 
+    if(myBirthday == todaysDate)
+    {System.out.print("")}
+
   }
 }
