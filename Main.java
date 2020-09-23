@@ -5,7 +5,14 @@ class Main {
     int todaysDate = 921;
 
     if(myBirthday == todaysDate)
-    {System.out.print("")}
-
+    {
+      System.out.print("I am ");
+      System.out.print(1 + myAge);
+    }
+    else
+    { 
+      System.out.print("I am " + myAge);
+    }
+      System.out.print(" years old ");
   }
 }
